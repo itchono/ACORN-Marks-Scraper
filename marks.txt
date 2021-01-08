@@ -1,0 +1,12 @@
+AER210H1: Not released yet
+CHE260H1: 1
+ECE253H1: 2
+ESC203H1: 3
+MAT292H1: 4
+PHY293H1: Not released yet
+BME205H1: Not released yet
+CHE374H1: Not released yet
+CLA201H1: Not released yet
+ECE259H1: Not released yet
+ECE286H1: Not released yet
+PHY294H1: Not released yet

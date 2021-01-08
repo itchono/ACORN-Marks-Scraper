@@ -1,0 +1,214 @@
+
+		<h2 class="subheading">Recent Academic History</h2>
+		<div class="section">
+			<!---->
+			<!----><p data-ng-if="$ctrl.data.academicData.length">The following is <b>Joe Ligma</b>'s recent academic history. View your
+				<a href="" data-ng-click="$ctrl.getComplete()">Complete Academic History</a>
+				to see what will appear on your transcript.</p><!---->
+			<data-new-feature-disclaimer><ul>   <li>       For an explanation of your academic history, please view the        <a href="http://www.transcripts.utoronto.ca/guide/" target="_blank">Guide for Reading a Transcript<data-icon-ext-link><span class="acorn-fa fa fa-external-link" aria-hidden="true"></span><span class="sr-only">, External link</span></data-icon-ext-link></a>.   </li>   <li>       To confirm your registration status, use ACORN's official        <a href="/sws/#/transcript">Confirmation of Enrolment Letter</a>.   </li>   <li>       To estimate your potential GPA, use <abbr title="University of Toronto">U of T's</abbr>        <a href="https://gpacalc.utoronto.ca/" target="_blank">GPA Calculator<data-icon-ext-link><span class="acorn-fa fa fa-external-link" aria-hidden="true"></span><span class="sr-only">, External link</span></data-icon-ext-link></a>.   </li></ul></data-new-feature-disclaimer>
+
+			<jn-server-load-notice data-loaded-flag="$ctrl.loadedFlag" data-error-flag="$ctrl.errorFlag"><!-- loadedFlag is null means data not loaded yet, after data load, set loadedFlag.inError as true/false-->
+<!---->
+
+<!---->
+</jn-server-load-notice>
+		</div>
+		<div class="includeprint">
+			<h3>Joe Ligma</h3>
+		</div>
+		<!----><div data-ng-repeat="session in $ctrl.data.academicData">
+			<table class="section academic-history xs-block-table">
+				<thead>
+					<tr class="sessionHeader">
+						<th colspan="4" class="recentAcademicHistoryLeft">2020 Fall - BASc in Engineering Science</th>
+						<th colspan="2" class="recentAcademicHistoryRight">
+							<a href="" name="collapse0" data-ng-click="$ctrl.toggleTargetName($index)">
+								<img src="/sws/images/expand.gif" border="0" alt="click to show">
+							</a>
+							<a href="" name="expand0" style="display: none;" data-ng-click="$ctrl.toggleTargetName($index)">
+								<img src="/sws/images/collapse.gif" border="0" alt="click to hide">
+							</a>
+					   </th>
+					</tr>
+				</thead>
+				<tbody name="status0">
+					<!---->
+					<!----><tr data-ng-if="session.courses.length">
+						<td colspan="6">
+							<table>
+								<tbody><tr class="coursesHeader">
+									<th>Crs Code</th>
+									<th>Title</th>
+									<th>Wgt</th>
+									<th>Mrk</th>
+									<th>Grd</th>
+									<th>Crs Avg.</th>
+								</tr>
+								<!----><tr data-ng-repeat="course in session.courses" class="courses">
+									<td>AER210H1</td>
+									<td>VECTOR CALC. &amp; FLUID MECHANICS</td>
+									<td class="course-weight">0.50</td>
+									<td class="course-mark">
+										
+										<!---->
+									</td>
+									<td class="course-grade">IPR</td>
+									<td class="course-average"> </td>
+								</tr><!----><tr data-ng-repeat="course in session.courses" class="courses">
+									<td>CHE260H1</td>
+									<td>THERMODYNAMICS</td>
+									<td class="course-weight">0.50</td>
+									<td class="course-mark">
+										number
+										<!---->
+									</td>
+									<td class="course-grade">Jokes</td>
+									<td class="course-average"> </td>
+								</tr><!----><tr data-ng-repeat="course in session.courses" class="courses">
+									<td>ECE253H1</td>
+									<td>DIGITAL &amp; COMPUT.SYS</td>
+									<td class="course-weight">0.50</td>
+									<td class="course-mark">
+										number
+										<!---->
+									</td>
+									<td class="course-grade">Jokes</td>
+									<td class="course-average"> </td>
+								</tr><!----><tr data-ng-repeat="course in session.courses" class="courses">
+									<td>ESC203H1</td>
+									<td>ENGINEERING AND SOCIETY</td>
+									<td class="course-weight">0.50</td>
+									<td class="course-mark">
+										number
+										<!---->
+									</td>
+									<td class="course-grade">Jokes</td>
+									<td class="course-average"> </td>
+								</tr><!----><tr data-ng-repeat="course in session.courses" class="courses">
+									<td>MAT292H1</td>
+									<td>ORDINARY DIFFERENTIAL EQUATION</td>
+									<td class="course-weight">0.50</td>
+									<td class="course-mark">
+										number
+										<!---->
+									</td>
+									<td class="course-grade">Jokes</td>
+									<td class="course-average"> </td>
+								</tr><!----><tr data-ng-repeat="course in session.courses" class="courses">
+									<td>PHY293H1</td>
+									<td>WAVES AND MODERN PHYSICS</td>
+									<td class="course-weight">0.50</td>
+									<td class="course-mark">
+										
+										<!---->
+									</td>
+									<td class="course-grade">IPR</td>
+									<td class="course-average"> </td>
+								</tr><!---->
+								<!---->
+							</tbody></table>
+						</td>
+					</tr><!---->
+					<!---->
+				</tbody>
+			</table>
+			<!---->
+		</div><!----><div data-ng-repeat="session in $ctrl.data.academicData">
+			<table class="section academic-history xs-block-table">
+				<thead>
+					<tr class="sessionHeader">
+						<th colspan="4" class="recentAcademicHistoryLeft">2021 Winter - BASc in Engineering Science</th>
+						<th colspan="2" class="recentAcademicHistoryRight">
+							<a href="" name="collapse1" data-ng-click="$ctrl.toggleTargetName($index)">
+								<img src="/sws/images/expand.gif" border="0" alt="click to show">
+							</a>
+							<a href="" name="expand1" style="display: none;" data-ng-click="$ctrl.toggleTargetName($index)">
+								<img src="/sws/images/collapse.gif" border="0" alt="click to hide">
+							</a>
+					   </th>
+					</tr>
+				</thead>
+				<tbody name="status1">
+					<!---->
+					<!----><tr data-ng-if="session.courses.length">
+						<td colspan="6">
+							<table>
+								<tbody><tr class="coursesHeader">
+									<th>Crs Code</th>
+									<th>Title</th>
+									<th>Wgt</th>
+									<th>Mrk</th>
+									<th>Grd</th>
+									<th>Crs Avg.</th>
+								</tr>
+								<!----><tr data-ng-repeat="course in session.courses" class="courses">
+									<td>BME205H1</td>
+									<td>FUNDAMENTALS OF BIOMEDICAL ENG</td>
+									<td class="course-weight">0.50</td>
+									<td class="course-mark">
+										
+										<!---->
+									</td>
+									<td class="course-grade">IPR</td>
+									<td class="course-average"> </td>
+								</tr><!----><tr data-ng-repeat="course in session.courses" class="courses">
+									<td>CHE374H1</td>
+									<td>ECO.ANA.&amp; DEC.MAKING</td>
+									<td class="course-weight">0.50</td>
+									<td class="course-mark">
+										
+										<!---->
+									</td>
+									<td class="course-grade">IPR</td>
+									<td class="course-average"> </td>
+								</tr><!----><tr data-ng-repeat="course in session.courses" class="courses">
+									<td>CLA201H1</td>
+									<td>Scientific Termin</td>
+									<td class="course-weight">0.50</td>
+									<td class="course-mark">
+										
+										<!---->
+									</td>
+									<td class="course-grade">IPR</td>
+									<td class="course-average"> </td>
+								</tr><!----><tr data-ng-repeat="course in session.courses" class="courses">
+									<td>ECE259H1</td>
+									<td>ELECTRICITY AND MAGNETISM</td>
+									<td class="course-weight">0.50</td>
+									<td class="course-mark">
+										
+										<!---->
+									</td>
+									<td class="course-grade">IPR</td>
+									<td class="course-average"> </td>
+								</tr><!----><tr data-ng-repeat="course in session.courses" class="courses">
+									<td>ECE286H1</td>
+									<td>PROBABILITY &amp; STATISTICS</td>
+									<td class="course-weight">0.50</td>
+									<td class="course-mark">
+										
+										<!---->
+									</td>
+									<td class="course-grade">IPR</td>
+									<td class="course-average"> </td>
+								</tr><!----><tr data-ng-repeat="course in session.courses" class="courses">
+									<td>PHY294H1</td>
+									<td>QUANTUM AND THERMAL PHYSICS</td>
+									<td class="course-weight">0.50</td>
+									<td class="course-mark">
+										
+										<!---->
+									</td>
+									<td class="course-grade">IPR</td>
+									<td class="course-average"> </td>
+								</tr><!---->
+								<!---->
+							</tbody></table>
+						</td>
+					</tr><!---->
+					<!---->
+				</tbody>
+			</table>
+			<!---->
+		</div><!---->
+	
